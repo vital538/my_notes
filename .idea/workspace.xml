@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef8771c-0225-4ac5-b9a8-6ffe95c81393" name="Default Changelist" comment="create simple react - laravel project">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/NoteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Note.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/NoteFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/TopicFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_150404_create_topics_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_175543_create_notes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/NoteSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/TopicSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/headPage/headPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/headPage/headPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/headPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/titlesList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/titlesList/titlesList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/titlesList/titlesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/constants/action-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a691f756-bd93-4d72-b4ce-dbb51ae38b19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a691f756-bd93-4d72-b4ce-dbb51ae38b19.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +36,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/laravel/sail" />
@@ -165,6 +172,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/artisan" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="PHP Script.server_laravel">
@@ -185,14 +193,26 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="development" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="development" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="npm.dev" />
       <item itemvalue="PHP Script.server_laravel" />
       <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="npm.development" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.development" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +238,15 @@
       <workItem from="1609403382710" duration="798000" />
       <workItem from="1609414588980" duration="1080000" />
       <workItem from="1609420687486" duration="4222000" />
+      <workItem from="1610208064264" duration="913000" />
+      <workItem from="1610209249205" duration="247000" />
+      <workItem from="1610209502981" duration="1018000" />
+      <workItem from="1610210721635" duration="142000" />
+      <workItem from="1610212409289" duration="100000" />
+      <workItem from="1610214608586" duration="4196000" />
+      <workItem from="1610270941364" duration="1606000" />
+      <workItem from="1610287182076" duration="15577000" />
+      <workItem from="1610345827394" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="create simple react - laravel project">
       <created>1609340563862</created>
@@ -248,5 +277,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create simple react - laravel project" />
     <option name="LAST_COMMIT_MESSAGE" value="create simple react - laravel project" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
